@@ -1,0 +1,648 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+
+}
+html{
+    font-size: 10px;
+}
+
+@media(min-width:300px){
+    body{
+      
+   height: 100%;
+        
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        background-blend-mode: multiply;
+        background-color:white;
+        
+        overflow-x:hidden ;
+        overflow-y: scroll;
+    }
+    .logotext{
+        color: red;
+        font-size: 2.9rem;
+        text-shadow: 0 0 1rem;
+        margin: 1rem;
+    }
+    .spanlogo{
+        color:navy
+    }
+    ul{
+        display: block;
+        background: royalblue;
+        width: 20rem;
+        height: 30rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 1.5rem black;
+        margin-top: -60rem;
+        
+
+        margin-left: 11rem;
+        transition: 0.6s ease;
+        position: absolute;
+      
+        z-index: 4;
+
+        
+    }
+
+    header{
+        display: flex;
+        gap:15rem;
+        background:royalblue;
+        z-index: 1;
+        padding: 1rem;
+        box-shadow:  0 0 1rem;
+        width: 100%;
+    }
+    li{
+        list-style: none;
+        margin-top: 2.4rem;
+        border: 2px solid red;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 3rem;
+       
+
+
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.8rem;
+        text-align: right;
+        color: white;
+
+    }
+    
+    a:hover{
+        padding: 0.5rem;
+        border: 2px solid;
+        border-radius: 1rem;
+    }
+    .menubtn{
+        height: 4rem;
+        width: 4rem;
+        margin-top: 1.3rem;
+        margin-left: -5rem;
+        box-shadow: 0 0 1rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 1.3rem;
+    }
+    .menubtn:active{
+        scale: 0.8;
+    }
+    .menutoggle{
+        
+      margin-top: 6.5rem;
+    }
+    img{
+        width: 18rem;
+        height:auto;
+        text-align: center;
+        margin: 1rem;
+    }
+    .staff{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3rem;
+        text-shadow: 0 0 0.1rem;
+        text-decoration: underline;
+    }
+
+.staffText,.staffText2{
+    text-align: justify;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.staffText::first-letter{
+    
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif ;
+
+}
+.staffText2::first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.staffDiv{
+    
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+figcaption{
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.securityDiv{
+    text-align: center;
+    padding-bottom: 1.5rem;
+
+}
+
+.securityText::first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.security{
+ 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    text-shadow: 0 0 0.1rem;
+
+    text-decoration: underline;
+}
+.securityText{
+    text-align: justify;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.accomodationDiv{
+    
+    text-align: center;
+    padding-bottom: 1.5rem;
+
+}
+
+.accomodation{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    text-shadow: 0 0 0.1rem;
+    text-decoration: underline;
+}
+.accomodationText{
+    
+    text-align: justify;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.accomodationText:first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 600;
+
+}
+
+
+.religionDiv{
+    
+    text-align: center;
+    padding-bottom: 1.5rem;
+
+}
+.religionText{
+    
+    text-align: justify;
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.religion{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    text-shadow: 0 0 0.1rem;
+    text-decoration: underline;
+}
+.religionText:first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 600;
+
+}
+
+footer{
+    text-align: center;
+    background: royalblue;
+    width: 100%;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+copyright{
+    font-size: 1.5rem;
+}
+support{
+    font-size: 1.5rem;
+}
+}
+@media(min-width:370px){
+    .menubtn{
+        margin-left: 1rem;
+    }
+    ul{
+       margin-left: 18.5rem; 
+    }
+    .copyright,.support{
+        font-size: 1.9rem;
+    }
+}
+
+@media(min-width:480px){
+    .menubtn{
+        margin-left: 10rem;
+    }
+    ul{
+       margin-left: 28rem; 
+    }
+    doms{
+        display: flex;
+        gap: 5rem;
+    }
+    .staffText,.staffText2,.securityText,.accomodationText,.religionText{
+        font-size: 1.8rem;
+        padding-right: 1rem;
+    }
+    
+      
+
+    }
+@media(min-width:530px){
+    .menubtn{
+        margin-left: 15rem;
+    }
+    ul{
+        margin-left: 33rem;
+    }
+    img{
+        width: 24rem;
+    }
+    
+    doms{
+        display: flex;
+        gap: 0.5rem;
+    }
+}
+
+@media(min-width:600px){
+    img{
+        width: 27rem;
+    }
+    .menubtn{
+        margin-left:23rem;
+    }
+    ul{
+        margin-left: 39rem;
+    }
+}
+
+
+@media(min-width:670px){
+    img{
+        width: 29rem;
+        height: 19rem;
+    }
+    .menubtn{
+        margin-left:29rem;
+    }
+    ul{
+        margin-left: 46rem;
+    }
+    doms{
+        gap:4rem;
+    }
+    
+    .copyright,.support{
+        font-size: 1.9rem;
+    }
+}
+@media(min-width:720px){
+    doms{
+        gap:7rem;
+        padding:1rem
+    }
+    .menubtn{
+        margin-left:34rem;
+    }
+    ul{
+        margin-left: 51rem;
+    }
+    
+    .staffText,.staffText2,.securityText,.accomodationText,.religionText{
+        font-size: 2rem;
+        padding-right: 5rem;
+        padding-left: 3rem;
+    }
+    .copyright,.support{
+        font-size: 2rem;
+    }
+}
+@media(min-width:768px){
+    
+    ul{
+        display: flex;
+        background: none;
+        width: 20rem;
+        height: 30rem;
+        padding: 2rem;
+        border-radius: none;
+        box-shadow:none;
+        margin-top: -2.8rem;
+        
+
+        margin-left: 26rem;
+        transition: none;
+        padding-right: 5rem;
+        position: absolute;
+      
+        z-index: 4;
+
+        
+    }
+
+    header{
+        display: flex;
+        gap:15rem;
+        background:royalblue;
+        z-index: 1;
+        padding: 1rem;
+        box-shadow:  0 0 1rem;
+        width: 100%;
+    }
+    li{
+        list-style: none;
+        margin-top: 2.4rem;
+        border: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 3rem;
+       
+
+
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.6rem;
+        text-align: right;
+        color: white;
+        margin-right: 1rem;
+        font-family: consolas 'Courier New',  monospace;
+
+    }
+    .menubtn{
+        height: 4rem;
+        width: 4rem;
+        margin-top: 1.3rem;
+        margin-left: -6rem;
+        box-shadow: 0 0 1rem;
+        padding: 0.5rem;
+        border: none;
+        display: none;
+    }
+    .menutoggle{
+        
+      margin-top: -2.8rem;
+      display: none;
+    }
+}
+@media(min-width:820px){
+    img{
+        width:31rem;
+        height: 20rem;
+    }
+    ul{
+        margin-left: 28rem;
+    }
+}
+@media(min-width:820px){
+    img{
+        width:33rem;
+        height: 22rem;
+    }
+    ul{
+        margin-left: 31rem;
+    }
+
+.copyright{
+    font-size: 3rem;
+}
+.support{
+    font-size: 2.5rem;
+}
+
+}
+@media(min-width:900px){
+    img{
+        width:35rem;
+        height: 24rem;
+    }
+    ul{
+        margin-left: 31rem;
+    }
+    
+    .staffText,.staffText2,.securityText,.accomodationText,.religionText{
+        font-size: 2.5rem;
+        padding-right: 5rem;
+        padding-left: 3rem;
+    }
+    figcaption{
+        font-size: 2rem;
+    }
+
+    .staff,.security,.accomodation,.religion{
+        font-size: 3.5rem;
+    }
+    
+    ul{
+        margin-left: 35rem;
+    }
+}
+
+@media(min-width:960px){
+    img{
+        width:35rem;
+        height: 24rem;
+    }
+    ul{
+        margin-left: 31rem;
+    }
+    doms{
+        gap:12rem;
+    }
+}
+
+@media(min-width:1024px){
+    ul{
+        margin-left: 49rem;
+    }
+    .parent{
+        display: grid;
+        grid: auto/auto auto;
+        column-gap: 0.4rem;
+    }
+    .staffDiv{
+        width: 55rem;
+    }
+    .securityDiv{
+        width: 50rem;
+        height: 99.6rem;
+        margin-left: -43rem;
+    }
+    .religionDiv{
+        margin-top: -37rem;
+        margin-left: -43rem;
+        width: 50rem;
+    }
+    .accomodationDiv{
+        margin-top: 2rem;
+        margin-left: 7rem;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+@media (min-width:1100px) {
+    .securityDiv,.religionDiv{
+        margin-left: -51rem;
+    }
+    
+    .accomodationDiv{
+        margin-top: 2rem;
+        margin-left: 9rem;
+    }
+    .accomodation{
+        margin-left: -7.6rem;
+    }
+    ul{
+        margin-left: 56rem;
+    }
+    doms{
+        margin-left: 2.6rem;
+    }
+    
+}
+
+@media(min-width:1150px){
+    .securityDiv,.religionDiv{
+        margin-left: -58rem;
+    }
+    
+    .accomodationDiv{
+        margin-top: 2rem;
+        margin-left: 6rem;
+    }
+    doms{
+        text-align: center;
+        margin-left: 6.7rem;
+    }
+}
+@media(min-width:1220px){
+    
+    .securityDiv,.religionDiv{
+        margin-left: -63rem;
+        width: 60rem;
+    }
+    .staffDiv{
+        width: 60rem;
+    }
+    
+    .accomodationDiv{
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+    
+    doms{
+        text-align: center;
+        margin-left: 18.7rem;
+    }
+    ul{
+        margin-left: 67rem;
+    }
+}
+@media(min-width:1310px){
+    
+    .securityDiv,.religionDiv{
+        margin-left: -70rem;
+        width: 60rem;
+    }
+    
+    .accomodationDiv{
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+    
+    doms{
+        text-align: center;
+        margin-left: 20.7rem;
+    }
+    ul{
+        margin-left: 67rem;
+    }
+    .staffDiv{
+        padding-left: 3rem;
+        width: 60rem;
+    }
+}
+@media(min-width:1410px){
+    
+    .securityDiv,.religionDiv{
+        margin-left: -70rem;
+        width: 68rem;
+    }
+    
+    .accomodationDiv{
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+    
+    doms{
+        text-align: center;
+        margin-left: 15.7rem;
+    }
+    ul{
+        margin-left: 87rem;
+    }
+    .staffDiv{
+        padding-left: 3rem;
+        width: 68rem;
+    }
+}
+@media(min-width:1665px){
+      
+    .securityDiv,.religionDiv{
+        margin-left: -70rem;
+        width: 88rem;
+    }
+    
+    .staffDiv{
+        padding-left: 3rem;
+        width: 78rem;
+    }
+    
+    .accomodationDiv{
+        margin-top: 2rem;
+        margin-left: 10rem;
+    }
+    
+    doms{
+        text-align: center;
+        margin-left: 18.7rem;
+        gap: 15rem;
+    }
+}
+

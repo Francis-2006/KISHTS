@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+   
+           
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+  
+    <link rel="stylesheet" href="./CSSs/contact .css">
+</head>
+<body>
+    
+ <header>
+        <h2 class="logotext">sec<span class="spanlogo">TECH</span></h2>
+        <img class="menubtn" src="./images/icons8-menu-64.png" onclick="mymenu()">
+           <ul class="menulinks">
+            <li><a href="index.html">HOME</a></li>
+           <li> <a href="contact.html">CONTACT</a></li>
+            <li><a href="event.html">EVENT</a></li>
+          <li>  <a href="administration.html">ADMINISTRATION</a></li>
+            <li><a href="admission.html">ADMISSION</a></li>
+        </ul>
+ </header>
+
+
+    <div class="parent">
+
+        <div class="message">
+            <form id="myform" action="https://formsubmit.co/francisasiedu247@gmail.com" method="POST">
+                  <h1 class="message-head">MESSAGE </h1>
+                  
+                  <input type="hidden" name="access_key" value="2f3828fb-9af9-4bc5-a3b8-0532bfdd2c1a">
+                    <input id="email-id" name="email" type="email" placeholder="email"><br><br>
+                    <textarea name="name" id="text-id" name="message" placeholder="Message here" maxlength="100" onkeyup="validate()"></textarea><br>
+                    <span class="remain"></span><br><br>
+                    <input type="submit" id="submit-id" onclick="sendForm()">
+            </form>
+        </div>
+
+            <div class="outcome">
+                <img src="./images/download.jpg" >
+                <h2 class="outcome-text">Your message was sent successfully</h2>
+            </div>
+
+
+
+        <div class="info">
+            <h1 class="info-head">GET INFO</h1>
+
+           <label for="">Email:</label><span>sectec312@edu.gh</span><br><br>
+           <label for="">Loc:</label><span>The School is located at Kibi opposite the Forestry camp</span><br><br>
+           <label for="">Email:</label><span>0592904837,0534038811</span><br><br>
+           <label for="">Box no.:</label><span>P O BOX39</span><br><br>
+           <label for="">For more enquires contact one of the number above  </label><br><br>
+        </div>  
+    
+  </div>
+
+    
+
+
+            <div class="icons">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+                      <i class="fa fa-address-book" style="font-size: 3.5rem; margin-right: 1.2rem; color: black;" onclick="address()"></i>
+                      <i class="fa fa-whatsapp" style="font-size: 3.5rem; margin-right: 1.2rem; color:black;" onclick="whatsapp()"></i>
+                      <i class="fa fa-facebook" style="font-size: 3.5rem; margin-right: 1.2rem; color: black;" onclick="facebook()"></i>
+                       <i class="fa fa-instagram" style="font-size: 3.5rem; margin-right: 1.2rem; color: black;" onclick="instagram()"></i>
+                          <i class="fa fa-phone" style="font-size: 3.5rem; margin-right: 1.2rem; color: black;" onclick="phone()"></i>
+       
+
+                             <p class="copyright">@2024 Devoloped by MURDATECH</p>
+                          <p class="support">For any help please click here <a class="supporttext" href="#">Support</a></p>
+            </div>
+  
+
+
+ <script src="./Js/contact.js"></script>
+</body>
+</html>

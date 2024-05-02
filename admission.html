@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMISSION PORTAL</title>
+    <link rel="stylesheet" href="./CSSs/admission.css">
+</head>
+<body>
+    
+    <header>
+        <h2 class="logotext">sec<span class="spanlogo">TECH</span></h2>
+        <img class="menubtn" src="./images/icons8-menu-64.png" onclick="mymenu()">
+           <ul class="menulinks">
+            <li><a href="index.html">HOME</a></li>
+           <li> <a href="contact.html">CONTACT</a></li>
+            <li><a href="event.html">EVENT</a></li>
+          <li>  <a href="administration.html">ADMINISTRATION</a></li>
+            <li><a href="admission.html">ADMISSION</a></li>
+        </ul>
+    </header>
+ <div class="totalparent">
+    <div class="textparent">
+            <div class="textarea">
+                <img class="logo" src="./images/images (5).jpeg">
+                <h2 class="schoolname">KISHTS</h2>
+            </div>
+
+        <p class="text">Welcome to Kibi Senior High Technical school's official admission portal.Before you go ahead and fill the form there are some 
+            qualification we expect from the student... 
+            *Overall Grade:25 and below<br>
+            *All subject grade: C and below.<br>
+        After submitting the form, any feedback will be sent via message on the Telephone number you will provide below.Make sure you will buy the E-voucher Before
+        attempting to fill the form
+
+        </p>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <form action="https://formsubmit.co/francisasiedu247@gmail.com" method="post">
+        <h2 class="formhead">ADMISSION FORM</h2>
+      <div class="forminput">
+            <input class="fullname" type="text" placeholder="Please type your full Name" required  onkeyup="validateName()" ><br>
+            <span class="name-error"></span><br><br>
+            <input class="Age" type="number" placeholder="Age in digit" required onkeyup="validateAge()"><br>
+            <span class="age-error"></span><br><br>
+            <input class="school" type="text" placeholder="Please type Name of Formal school" required onkeyup="validateschool()"><br>
+            <span class="school-error"></span><br><br>
+            <label >Male</label> <input class="malecheck" type="checkbox"> <label>Female</label> <input class="femalecheck" type="checkbox"><br><br>
+            <input class="grade" type="number" placeholder="insert overall Grade" required onkeyup="validateGrade()"><br>
+            <span class="grade-error"></span><br><br>
+            <input class="index" type="number" placeholder="input your index number" required   onkeyup="validateindex()"><br>
+            <span class="index-error"></span><br><br>
+            <input class="code" type="number" placeholder="input your purchased voucher code" required onkeyup="validatecode()"><br>
+            <span class="code-error"></span><br><br>
+            <input class="tel" type="tel" placeholder="input your Telephone number" required onkeyup="validatetel()"><br>
+            <span class="tel-error"></span><br><br>
+            <input class="gtel" type="tel" placeholder="input your Guardian number" required onkeyup="validategtel()" ><br>
+            <span class="gtel-error"></span><br><br>
+            <input class="email" type="email" placeholder="input your email" required onkeyup="validateEmail()"><br>
+            <span class="email-error"></span><br><br>
+            
+            <button type="submit"  class="submit" onclick="myfun()">SUBMIT</button><br><br>
+            <span class="submit-error"></span>
+
+
+
+        </div>  
+
+    </form>
+
+
+
+ </div>
+
+
+            <div class="outputcont">
+                <a class="close"  href="">&times;</a>
+
+                <h1>NOTICE!</h1>
+                <h3 class="notice1"></h3>
+            </div>
+
+
+  <footer>
+        <p class="copyright">@2024 Devoloped by MURDATECH</p>
+
+    <p class="schoolemail">sectec@312.edu.gh</p>
+
+ </footer>
+
+
+
+
+    
+
+
+    <script src="./Js/amdin.js">
+        
+    </script>
+</body>
+</html>

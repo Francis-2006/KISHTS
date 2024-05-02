@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size: 10px;
+}
+
+@media(min-width:300px){
+    body{
+      
+   height: 100%;
+        
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        background-blend-mode: multiply;
+        background-color:white;
+        
+        overflow-x:hidden ;
+        overflow-y: scroll;
+    }
+    .logotext{
+        color: red;
+        font-size: 2.9rem;
+        text-shadow: 0 0 1rem;
+        margin: 1rem;
+    }
+    .spanlogo{
+        color:navy
+    }
+    ul{
+        display: block;
+        background: royalblue;
+        width: 20rem;
+        height: 30rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 1.5rem black;
+        margin-top: -60rem;
+        
+
+        margin-left: 11rem;
+        transition: 0.6s ease;
+        position: absolute;
+      
+        z-index: 4;
+
+        
+    }
+
+    header{
+        display: flex;
+        gap:15rem;
+        background:royalblue;
+        z-index: 1;
+        padding: 1rem;
+        box-shadow:  0 0 1rem;
+        width: 100%;
+    }
+    li{
+        list-style: none;
+        margin-top: 2.4rem;
+        border: 2px solid red;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 3rem;
+       
+
+
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.8rem;
+        text-align: right;
+        color: white;
+
+    }
+    
+    a:hover{
+        padding: 0.5rem;
+        border: 2px solid;
+        border-radius: 1rem;
+    }
+    .menubtn{
+        height: 4rem;
+        width: 4rem;
+        margin-top: 1.3rem;
+        margin-left: -6rem;
+        box-shadow: 0 0 1rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 1.3rem;
+    }
+    .menubtn:active{
+        scale: 0.8;
+    }
+    .menutoggle{
+        
+      margin-top: 6.5rem;
+    }
+    
+    
+    .head{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 2.3rem;
+        font-family: arial;
+        color: white;
+        text-shadow: 0 0 1rem black;
+    }
+    .headtext{
+        font-size: 1.7rem;
+        
+        font-family: Consolas, 'Courier New', monospace;
+        background: royalblue;
+        color: white;
+        width: 100%;
+        padding: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    form{
+        margin-top: 2rem;
+    }
+    .forminput{
+        text-align: center;
+    }
+    input{
+        width: 25rem;
+        height: 2.7rem;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        box-shadow: 0 0 0.2rem;
+    }
+    .malecheck,.femalecheck,.yescheck,.nocheck{
+        width: auto;
+        height: auto;
+        border: none;
+    }
+    label{
+        font-size: 1.5rem;
+    
+    }
+    .submit{
+        width: 25rem;
+        padding: 0.7rem;
+        border-radius: 0.9rem;
+        box-shadow: 0 0 1rem black;
+        background: royalblue;
+        color: white;
+        font-size: 1.6rem;
+    }
+    
+    .submit:active{
+        scale: 0.8;
+    }
+
+    .logo{
+        scale: 0.3;
+        margin-left: -5rem;
+        margin-top: -5rem;
+    }
+    .textarea{
+        display: flex;
+        padding-bottom: 2rem;
+    }
+    .schoolname{
+        margin-top: 3.7rem;
+        margin-left: -7rem;
+        font-size: 3rem;
+        font-family: arial;
+        font-weight: 800;
+        color: white;
+        text-shadow: 0 0 1rem black;
+    }
+    .text{
+        font-size: 1.8rem;
+        padding: 1.5rem;
+        margin-top: -8rem;
+        color: white;
+        text-align: justify;
+        font-family: Consolas, 'Courier New', monospace;
+    }
+    .textparent{
+        background: royalblue;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 1rem black;
+    }
+    .formhead{
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .schoolemail{
+        padding-top: 1rem;
+        color: black;
+        text-align: center;
+        font-size: 2rem;
+    }
+    span{
+        font-size: 1.8rem;
+        color: red;
+        text-align: center;
+        
+        margin-top: -1rem;
+        
+    
+    }
+    
+    .outputcont{
+        background: royalblue;
+        width: 50%;
+        position: absolute;
+        height: 20%;
+        padding: 2rem;
+      
+        left: 25%;
+        top: 58rem;
+        border-radius: 1.2rem;
+        box-shadow: 0 0 1.4rem;
+        display:none ;
+    }
+    .outputcont h1{
+        color: red;
+        font-family: arial;
+        text-align: center;
+        font-weight: 800;text-shadow: 0 0 0.2rem;
+
+    }
+    .close{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    .notice1{
+        text-align: center;
+        font-size: 1.7rem;
+        color: black;
+        font-family:arial;
+    }
+    .error{
+        
+        text-align: center;
+        font-size: 1.6rem;
+        color: red;
+        font-family: Consolas, 'Courier New', monospace;
+    }
+    
+footer{
+    text-align: center;
+    background: royalblue;
+    width: 100%;
+    border-top-left-radius:2rem ;
+    border-top-right-radius:2rem ;
+    padding: 2rem;
+    box-shadow: 0 0 0.8rem;
+    margin-top: 1rem;
+}
+.copyright,.support{
+    font-size: 2rem;
+    color: black;
+}
+    
+}
+
+
+@media(min-width:360px){
+    .menubtn{
+        margin-left: 1rem;
+
+    }
+    ul{
+        margin-left: 15rem;
+    }
+}
+
+@media(min-width:400px){
+    ul{
+        margin-left: 20rem;
+    }
+}
+@media(min-width:450px){
+    input{
+    width: 35rem;       
+    }
+    .submit{
+        padding: 0.4rem;
+}
+.menubtn{
+    margin-left: 10rem;
+}
+ul{
+    margin-left: 24rem;
+}
+}
+
+@media(min-width:514px){
+    
+ul{
+    margin-left: 31rem;
+}
+
+.menubtn{
+    margin-left: 13rem;
+}
+input{
+    width: 40rem;
+}
+.submit{
+    width: 35rem;
+}
+}
+
+@media(min-width:570px){
+    
+.menubtn{
+    margin-left: 19rem;
+}
+
+ul{
+    margin-left: 36rem;
+}
+
+input{
+    width: 46rem;
+}
+
+.submit{
+    width: 40rem;
+}
+}
+@media(min-width:630px){
+    
+input{
+    width: 51rem;
+}
+
+.submit{
+    width: 47rem;
+}
+
+ul{
+    margin-left: 44rem;
+}
+
+.menubtn{
+    margin-left: 25rem;
+}
+
+}
+
+@media(min-width:713px){
+    
+.menubtn{
+    margin-left: 34rem;
+}
+
+ul{
+    margin-left: 52rem;
+}
+}
+@media(min-width:768px){
+    
+    ul{
+        display: flex;
+        background: none;
+        width: 20rem;
+        height: 30rem;
+        padding: 2rem;
+        border-radius: none;
+        box-shadow:none;
+        margin-top: -2.8rem;
+        
+
+        margin-left: 30rem;
+        transition: none;
+        position: absolute;
+      
+        z-index: 4;
+
+        
+    }
+
+    header{
+        display: flex;
+        gap:15rem;
+        background:royalblue;
+        z-index: 1;
+        padding: 1rem;
+        box-shadow:  0 0 1rem;
+        width: 100%;
+    }
+    li{
+        list-style: none;
+        margin-top: 2.4rem;
+        border: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 3rem;
+       
+
+
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.3rem;
+        text-align: right;
+        color: white;
+        margin-right: 1rem;
+        font-family: consolas 'Courier New',  monospace;
+
+    }
+    .menubtn{
+        height: 4rem;
+        width: 4rem;
+        margin-top: 1.3rem;
+        margin-left: -6rem;
+        box-shadow: 0 0 1rem;
+        padding: 0.5rem;
+        border: none;
+        display: none;
+    }
+    .menutoggle{
+        
+      margin-top: -2.8rem;
+      display: none;
+    }
+    
+    
+}
+@media(min-width:880px){
+    ul{
+        margin-left: 43rem;
+    }
+}
+@media(min-width:964px){
+    ul{
+        margin-left: 51rem;
+    }
+}
+
+@media(min-width:1024px){
+    .totalparent{
+        display: flex;
+        gap: 7rem;
+    }
+    input{
+        width: 40rem;
+    }
+    .submit{
+        width: 28rem;
+    }
+    .textparent{
+    margin-top: 2rem;
+    }
+    form{
+        padding-right: 7rem;
+    }
+    ul{
+        margin-left: 52rem;
+    }
+    a{
+        font-size: 1.7rem;
+    }
+}
+@media(min-width:1136px){
+    ul{
+        margin-left: 55rem;
+    }
+}
+
+@media(min-width:1264px){
+    ul{
+        margin-left: 72rem;
+    }
+}
+
+@media(min-width:1415px){
+    ul{
+        margin-left: 88rem;
+    }
+}

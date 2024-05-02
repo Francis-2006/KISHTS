@@ -1,0 +1,459 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+
+}
+html{
+    font-size: 10px;
+}
+
+@media(min-width:300px){
+    body{
+      
+   height: 100%;
+        
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        background-blend-mode: multiply;
+        background-color:white;
+        
+        overflow-x:hidden ;
+        overflow-y: scroll;
+    }
+    .logotext{
+        color: red;
+        font-size: 2.9rem;
+        text-shadow: 0 0 1rem;
+        margin: 1rem;
+    }
+    .spanlogo{
+        color:navy
+    }
+    ul{
+        display: block;
+        background: royalblue;
+        width: 20rem;
+        height: 30rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 1.5rem black;
+        margin-top: -60rem;
+        
+
+        margin-left: 11rem;
+        transition: 0.6s ease;
+        position: absolute;
+      
+        z-index: 4;
+
+        
+    }
+
+    header{
+        display: flex;
+        gap:15rem;
+        background:royalblue;
+        z-index: 1;
+        padding: 1rem;
+        box-shadow:  0 0 1rem;
+        width: 100%;
+    }
+    li{
+        list-style: none;
+        margin-top: 2.4rem;
+        border: 2px solid red;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 3rem;
+       
+
+
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.8rem;
+        text-align: right;
+        color: white;
+
+    }
+    
+    a:hover{
+        padding: 0.5rem;
+        border: 2px solid;
+        border-radius: 1rem;
+    }
+    .menubtn{
+        height: 4rem;
+        width: 4rem;
+        margin-top: 1.3rem;
+        margin-left: -1rem;
+        box-shadow: 0 0 1rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 1.3rem;
+    }
+    .menubtn:active{
+        scale: 0.8;
+    }
+    .menutoggle{
+        
+      margin-top: 6.5rem;
+    }
+    button:active{
+        scale: 0.8;
+    }
+    .info{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    label{
+        font-size: 1.4rem;
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    span{
+        font-size: 1.5rem;
+        color: grey;
+        font-family: monospace;
+
+    }
+    .copyright{
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 1.1rem;
+        font-family: monospace;
+    }
+    .icons{
+        text-align: center;
+        background: royalblue;
+        width: 100%;
+        height: 100%;
+        height: 15rem;
+        border-radius: 2rem;padding: 2rem;
+        box-shadow: 0 0 1rem;
+    }
+    .support{
+        font-size: 1.5rem;
+        font-family: monospace;
+        margin-top: 0.5rem;
+
+    }
+    .supporttext{
+        color: red;
+        font-size: 1.3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+    }
+    
+    .info-head{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3rem;
+        margin-top: -0.9rem;
+        padding-bottom: 2rem;
+    
+    }
+    .info-head::first-letter{
+        color: red;
+        font-size: 5rem;
+        font-weight: 800;
+        font-family: arial;
+    }
+    .remain{
+        font-size: 1.5rem;
+    }
+    .message{
+        text-align: center;
+        margin-top: 5rem;
+    }
+    input{
+        border: 1px solid;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        height: 2.5.7rem;
+    }
+    input::placeholder{
+        color: grey
+
+    }
+    textarea{
+        width: 25rem;
+        height: 12rem;
+        border-radius: 1rem;
+        border: 1px solid;
+        padding: 1rem;
+
+    }
+    textarea::placeholder{
+        font-size: 1.5rem;
+        color: grey;
+    }
+    #submit-id{
+        padding: 0.8rem;
+        background-color:royalblue;
+        color: white;
+        width: 13rem;
+        font-size: 1.7rem;
+        border-radius: 1rem;
+
+    }
+    .message-head::first-letter{
+        color:red ;
+        font-size: 5rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 800;
+    }
+.message-head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+i:hover{
+    scale: 1.5;
+    margin-left: 1.5rem;
+}
+.outcome img{
+    background-color: white;
+    width: 5rem;
+}
+    .outcome{
+        display: none;
+    }
+}
+@media(min-width:380px){
+    .menubtn{
+        margin-left: 7rem;
+    }
+    ul{
+        margin-left: 17.5rem;
+    }
+    
+}
+
+@media(min-width:450px){
+    .menubtn{
+        margin-left: 11rem;
+    }
+    ul{
+        margin-left: 24.5rem;
+    }
+    #email-id{
+        width: 21rem;
+        height: 3rem;
+        border-radius: 0.7rem;
+        padding: 0.5rem;
+    }
+    textarea{
+        width: 30rem;
+        padding: 1rem;
+        border-radius: 0.7rem;
+        box-shadow: 0 0 0.5rem;
+    }
+    
+}
+@media(min-width:530px){
+    .menubtn{
+        margin-left: 17rem;
+    }
+    ul{
+        margin-left: 32rem;
+    }
+}
+
+@media(min-width:600px){
+    .menubtn{
+        margin-left: 22rem;
+    }
+    ul{
+        margin-left: 38rem;
+    }
+}
+
+@media(min-width:670px){
+    .menubtn{
+        margin-left: 31rem;
+    }
+    ul{
+        margin-left: 45rem;
+    }
+    #email-id{
+        width: 32rem;
+    }
+    textarea{
+        width: 40rem;
+    }
+
+}
+
+@media(min-width:768px){
+    
+    ul{
+        display: flex;
+        background: none;
+        width: 20rem;
+        height: 30rem;
+        padding: 2rem;
+        border-radius: none;
+        box-shadow:none;
+        margin-top: -2.8rem;
+        
+
+        margin-left: 30rem;
+        transition: none;
+        position: absolute;
+      
+        z-index: 4;
+
+        
+    }
+
+    header{
+        display: flex;
+        gap:15rem;
+        background:royalblue;
+        z-index: 1;
+        padding: 1rem;
+        box-shadow:  0 0 1rem;
+        width: 100%;
+    }
+    li{
+        list-style: none;
+        margin-top: 2.4rem;
+        border: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 3rem;
+       
+
+
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.6rem;
+        text-align: right;
+        color: white;
+        margin-right: 1rem;
+        font-family: consolas 'Courier New',  monospace;
+
+    }
+    .menubtn{
+        height: 4rem;
+        width: 4rem;
+        margin-top: 1.3rem;
+        margin-left: -6rem;
+        box-shadow: 0 0 1rem;
+        padding: 0.5rem;
+        border: none;
+        display: none;
+    }
+    .menutoggle{
+        
+      margin-top: -2.8rem;
+      display: none;
+    }
+    .icons{
+        height: 100%;
+        margin-top: 12rem;
+    }
+    
+    
+
+}
+@media(min-width:900px){
+    ul{
+        margin-left: 40rem;
+    }
+    
+    #email-id{
+        width: 35rem;
+    }
+    textarea{
+        width: 45rem;
+    }
+
+}
+@media(min-width:1024px){
+    .parent{
+        display: flex;
+        gap: 5rem;
+        padding: 3rem;
+        align-items: center;
+    }
+    .icons{
+        margin-top: 6rem;
+    }
+    .info{
+        margin-top: 8.5rem;
+    }
+    ul{
+        margin-left: 44rem;
+    }
+    label{
+        font-size: 2rem;
+    }
+    span{
+        font-size: 2rem;
+    }
+    .info-head{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3rem;
+        margin-top: -6.9rem;
+        padding-bottom: 3rem;
+    
+    }
+    .info-head::first-letter{
+        color: red;
+        font-size: 5rem;
+        font-weight: 800;
+        font-family: arial;
+    }
+}
+@media(min-width:1200px){
+    ul{
+        margin-left: 67rem;
+    }
+}
+
+@media(min-width:1300px){
+    ul{
+        margin-left: 70rem;
+    }
+    .parent{
+    align-items: center;
+    margin-left: 5rem;
+    
+    }
+    .copyright{
+        font-size: 2rem;
+    }
+    .support{
+        font-size: 2rem;
+    }
+    .supporttext{
+        font-size: 2.5rem;
+        text-decoration: underline;
+    }
+
+}
+@media(min-width:1476px){
+    ul{
+        margin-left: 90rem;
+    }
+    
+    .parent{
+        align-items: center;
+        margin-left: 13rem;
+        gap: 15rem;
+        }
+}
+@media(min-heigth:1180px){
+    .icons{
+        margin-top: 38rem;
+        background: green;
+    }
+}

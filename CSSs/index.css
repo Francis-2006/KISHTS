@@ -1,0 +1,773 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Consolas, 'Courier New', monospace;
+
+}
+html{
+    font-size: 10px;
+}
+
+
+@media(min-width:300px){
+    body{
+        background-image:url("../Wallpapers/5594016-e1656071131636.jpg") ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: multiply;
+        height: 100rem;
+      
+        
+        overflow-x:hidden;
+        overflow-y: scroll;
+    }
+    .logotext{
+        color: red;
+        font-size: 2.5rem;
+        text-shadow: 0 0 1rem;
+        margin: 1rem;
+    }
+    .spanlogo{
+        color:navy
+    }
+    ul{
+        display: block;
+        background: royalblue;
+        width: 20rem;
+        height: 30rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 1.5rem black;
+        margin-top: -60rem;
+        
+
+        margin-left: 13rem;
+        transition: 0.6s ease;
+        position: absolute;
+      
+        z-index: 4;
+
+        
+    }
+
+    header{
+        display: flex;
+        gap:15rem;
+        background:royalblue;
+        z-index: 1;
+        padding: 1rem;
+        box-shadow:  0 0 1rem;
+        width: 100%;
+    }
+    li{
+        list-style: none;
+        margin-top: 2.4rem;
+        border: 2px solid red;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 3rem;
+       
+
+
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.8rem;
+        text-align: right;
+        color: white;
+
+    }
+    
+    a:hover{
+        padding: 0.5rem;
+        border: 2px solid;
+        border-radius: 1rem;
+    }
+    .menubtn{
+        height: 4rem;
+        width: 4rem;
+        margin-top: 1.3rem;
+        margin-left:-2rem;
+        box-shadow: 0 0 1rem;
+        border: none;
+        border-radius: 1.4rem;
+    }
+
+.menubtn:active{
+    scale: 0.8;
+}
+
+    .menutoggle{
+        
+      margin-top: 6.5rem;
+    }
+    .bannerimage{
+        width: 100%;
+        height: 34rem;
+        margin-top: 1rem;
+        filter: brightness(0.5);
+        z-index: 0;
+        
+    }
+    .welcome{
+        font-size: 4rem;
+        color: red;
+        margin-top: -32rem;
+        margin-left: 5.5rem;
+        text-shadow: 0 0 0.8rem white;
+        z-index: 2;
+        position: absolute;
+    }
+    .schoolname{
+        font-size: 3.5rem;
+        width: 30rem;
+        text-align: center;
+        margin-left: 0rem;
+        margin-top: -28rem;
+        position: absolute;
+        padding: 1rem;
+        color: white;
+        font-family: arial;
+        font-weight: 800;
+        padding-left: 3rem;
+        padding-bottom: 1rem ;
+        text-shadow: 0 0 1rem royalblue;
+}
+.slogan{
+    position: absolute;
+    font-size: 2rem;
+    margin-top: -14rem;
+    color: white;
+    padding-left: 1.3rem;
+
+
+}
+.missionhead,.visionhead{
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-align: center;
+    color: royalblue;
+    text-shadow: 0 0 0.1rem black;
+}
+.missiontext,.visiontext{
+    font-size: 1.6rem;
+    text-align: center;
+}
+.galleryhead{
+    margin-top: 3rem;
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+}
+
+.row{
+    display: grid;
+    grid:auto/auto auto auto;
+    margin-top: 2rem;
+
+
+}
+ section img{
+    width: 10rem;
+}
+.topic{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: underline royalblue;
+    margin-top: 5rem;
+    font-weight: 800;
+}
+.statementclass{
+    display: none;
+    border: none;
+}
+
+footer{
+    text-align: center;
+    background: royalblue;
+    width: 100%;
+    border-top-left-radius:2rem ;
+    border-top-right-radius:2rem ;
+    padding: 3rem;
+    box-shadow: 0 0 0.8rem;
+    margin-top: 1rem;
+}
+.copyright,.support{
+    font-size: 2rem;
+}
+}
+
+
+@media(min-width:375px){
+    ul{
+        margin-left: 18rem;
+    }
+    .menubtn{
+        margin-left: 2rem;
+    }
+    .welcome{
+        margin-left: 8rem;
+    }
+    .schoolname{
+        margin-left: 2.7rem;
+    }
+    .row{
+        margin-left: -2.9rem;
+        row-gap: -3rem;
+        width: 40rem;
+    }
+    section img{
+        width: 10.2rem;
+    }
+    .topic{
+        width: rem;
+    }
+   
+
+    
+}
+@media(min-width:414px){
+    ul{
+        margin-left: 22rem;
+    }
+    .menubtn{
+        margin-left: 5rem;
+    }
+    .images{
+        margin-left: -3.9rem;
+    }
+    
+.awardimg{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1.8rem;
+    
+}
+.welcome{
+    margin-left: 9rem;
+    text-align: center;
+}
+.schoolname{
+    margin-left: 3.9rem;
+    text-align: center;
+}
+
+.row{
+    margin-left: -2.9rem;
+    row-gap: -2rem;
+    column-gap: -2rem;
+    width: 43rem;
+}
+
+}
+
+@media(min-width:500px){
+    .welcome{
+        margin-left: 15rem;
+    }
+    .images{
+        margin-left: -1.6rem;
+    }
+    .schoolname{
+        margin-left: 9.6rem;
+    }
+    .menubtn{
+        margin-left: 15rem;
+    }
+    ul{
+        margin-left: 30rem;
+    }
+    .missiontext,.visiontext{
+        width: 50rem;
+    }
+    .row{
+        margin-left: -0rem;
+        width: 50rem;
+    }
+    section img{
+        width:14rem;
+    }
+}
+@media(min-width:630px){
+    .menubtn{
+        margin-left: 23rem;
+    }
+    .welcome{
+        margin-left: 22rem;
+    }
+    .schoolname{
+        margin-left: 17rem;
+    }
+
+.missiontext,.visiontext{
+    width: 55rem;
+}
+ul{
+    margin-left: 39rem;
+}
+
+.row{
+    margin-left: -0rem;
+    width: 67rem;
+    column-gap: 2.5rem;
+
+}
+
+section img{
+    width:17rem;
+}
+}
+@media(min-width:700px){
+    .images{
+        gap: 4rem;
+    }
+    .awardimg{
+        gap: 9rem;
+    
+}
+ul{
+    margin-left: 45rem;
+}
+.menubtn{
+    margin-left: 26rem;
+}
+.missiontext,.visiontext{
+    width: 66rem;
+}
+
+.row{
+    margin-left: 1rem;
+    width: 68rem;
+    column-gap: 3rem;
+
+}
+
+section img{
+    width:19rem;
+}
+}
+@media(min-width:720px){
+
+    .row{
+        margin-left: 1rem;
+        width: 68rem;
+        column-gap: 3rem;
+    
+    }
+    
+ul{
+    margin-left: 43rem;
+}
+.menubtn{
+    margin-left: 28rem;
+}
+
+}
+
+@media(min-width:762px){
+
+.welcome{
+ margin-left: 28rem;   
+}
+.schoolname{
+    margin-left: 15rem;
+    width: 45rem;
+}
+ul{
+    margin-left: 48rem;
+}
+.menubtn{
+    margin-left: 30rem;
+}
+section img{
+    width: 24rem;
+}
+.row{
+    margin-left: 1rem;
+    column-gap: 1.5rem;
+}
+.topic{
+    font-size: 3rem;
+}
+
+}
+
+
+@media(min-width:768px){
+    
+    ul{
+        display: flex;
+        background: none;
+        width: 20rem;
+        height: 30rem;
+        padding: 2rem;
+        border-radius: none;
+        box-shadow: none;
+        margin-top: -65rem;
+        
+
+        margin-left: 20rem;
+        transition: none;
+        position: absolute;
+      
+        z-index: 4;
+
+        
+    }
+
+    header{
+        display: flex;
+        gap:15rem;
+        background:royalblue;
+        z-index: 1;
+        padding: 1rem;
+        box-shadow:  0 0 1rem;
+        width: 100%;
+    }
+    li{
+        list-style: none;
+        margin-top: 2.4rem;
+        border: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 3rem;
+        margin-right: 1rem;
+       
+
+
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.8rem;
+        text-align: right;
+        color: white;
+
+    }
+    
+    a:hover{
+        padding: 0.5rem;
+        border: 2px solid;
+        border-radius: 1rem;
+    }
+    .menubtn{
+        height: 4rem;
+        width: 4rem;
+        margin-top: 1.3rem;
+        margin-left:-2rem;
+        box-shadow: 0 0 1rem;
+        border: none;
+        border-radius: 1.4rem;
+        display: none;
+    }
+
+.menubtn:active{
+    scale: 0.8;
+}
+
+    .menutoggle{
+        
+      margin-top: -3rem;
+      
+    }
+}
+@media(min-width:820px){
+    .bannerimage{
+        height: 50rem;
+    }
+    .welcome{
+        font-size: 5rem;
+    }
+    .schoolname{
+        font-size: 4rem;
+        width: 80rem;
+        margin-left: -2.6rem;
+    }
+    .missiontext,.visiontext{
+        width: 80rem;
+    }
+    .row{
+        margin-left: 4rem;
+    }
+}
+@media(min-width:834px){
+    .row{
+        margin-left: 2rem;
+    }
+    section img{
+        width: 25rem;
+    }
+    ul{
+        margin-left: 24rem;
+    }
+}
+
+@media(min-width:854px){
+    .images{
+        gap: 15rem;
+    }
+    .awardimg{
+        gap:15rem;
+    
+}
+
+.img1,.img2,.img3{
+    width: 70rem;
+    height: 10rem;;
+}
+.images{
+    text-align: center;
+    margin-left: 3rem;
+}
+
+ul{
+    margin-left: 37rem;
+}
+.welcome{
+    margin-left: 34rem;
+}
+.schoolname{
+    margin-left: 2rem;
+    font-size:4rem;
+}
+.missiontext,.visiontext{
+    width: 84rem;
+}
+.awardhead{
+    margin-left: 25rem;
+}
+
+.row{
+    margin-left: 2.6rem;
+    width: 68rem;
+    column-gap: 3.3rem;
+
+}
+}
+
+@media(min-width:900px){
+
+    .row{
+        margin-left: 4.8rem;
+        width: 68rem;
+        column-gap: 3rem;
+    
+    }
+    
+
+ul{
+    margin-left: 43rem;
+}
+}
+
+
+@media(min-width:940px){
+
+    .row{
+        margin-left: 6rem;
+        width: 75rem;
+        column-gap: 4rem;
+    
+    }
+    
+.menubtn{
+    margin-left: 55rem;
+}
+ul{
+    margin-left: 46rem;
+}
+}
+
+@media(min-width:980px){
+
+    .row{
+        margin-left: 6rem;
+        width: 85rem;
+        column-gap: 4rem;
+    
+    }
+    
+
+ul{
+    margin-left: 50rem;
+}
+}
+
+@media(min-width:1000px){
+
+    .row{
+        margin-left: 4rem;
+        width: 90rem;
+        column-gap: 4rem;
+    
+    }
+    
+    
+ul{
+    margin-left: 53rem;
+}
+}
+
+@media(min-width:1024px){
+    
+
+
+ 
+     
+.logotext{
+    font-size: 3rem;
+}
+.welcome{
+margin-left: 39rem;
+
+}
+.schoolname{
+    font-size: 5rem;
+    width: 90rem;
+    text-align: center;
+    margin-left:1.9rem;
+}
+
+section img{
+    width: 30rem;
+} 
+.row{
+    margin-left:2rem;
+}
+    }
+
+    @media(min-width:1114px){
+        
+section img{
+    width: 33rem;
+} 
+
+.row{
+    margin-left: 4rem;
+    column-gap: 3rem;
+}
+ul{
+    margin-left: 60rem;
+}
+.welcome{
+    margin-left: 44rem;
+}
+.schoolname{
+    margin-left: 7rem;
+}
+    }
+
+
+@media(min-width:1200px){
+    .welcome{
+        margin-left: 49rem;
+    }
+    .schoolname{
+        margin-left: 14.3rem;
+    }
+    .missiontext,.visiontext{
+        width: 120rem;
+        font-size: 2rem;
+    }
+    .images{
+        scale: 1;
+        gap: 17rem;
+        margin-left: 13rem;
+    }
+    .awardhead{
+        margin-left: 38rem;
+    }
+    .awardimg{
+        gap: 28rem;
+    }
+    ul{
+        margin-left: 68rem;
+    }
+}
+
+
+@media(min-width:1280px){
+    ul{
+        margin-left: 78rem;
+    }
+    .welcome{
+        margin-left: 52rem;
+        margin-top: -45rem;
+    }
+    .schoolname{
+        margin-left: 18rem;
+        margin-top: -40rem;
+    }
+    .bannerimage{
+        height: 60rem;
+    }
+    section img{
+        width: 39rem;
+    }
+    .row{
+        margin-left: 1rem;
+    }
+}
+
+@media(min-width:1366px){
+    .row{
+        margin-left: 6rem;
+    }
+    .welcome{
+        margin-left: 54rem;
+    }
+    .schoolname{
+        margin-left: 19.9rem;
+    }
+    ul{
+        margin-left: 84rem;
+    }
+}
+
+
+
+
+
+@media(min-width:1400px){
+    ul{
+        margin-left: 87rem;
+    }
+    .missionhead,.visionhead{
+        margin-left: -21rem;
+    }
+    .row{
+        margin-left: 9rem;
+    }
+    .missionhead,.visionhead{
+        margin-left: -1rem;
+    }
+    .missiontext,.visiontext{
+        margin-left: 7rem;
+    }
+}
+@media(min-width:1480px){
+    .row{
+        margin-left: 12rem;
+    }
+    .welcome{
+        margin-left: 61rem;
+    }
+    .schoolname{
+        margin-left: 28rem;
+    }
+    ul{
+        margin-left: 90rem;
+    }
+}
+@media(min-width:1530px){
+    .row{
+        margin-left: 15rem;
+    }
+    
+    ul{
+        margin-left: 95rem;
+    }
+}
